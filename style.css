@@ -1,0 +1,189 @@
+html, body {
+    width: 900px;
+    margin: auto;
+    height: 100%;
+    font-family: 'Segoe UI';
+    background-image: url("fundo_tabela.jpg");
+    
+  }
+
+.colunaesquerda{
+  background-color: white;
+  width: 300px;
+  margin: auto;
+  }
+
+.colunadireita{
+  background-color: #8C52FF;
+  width: 600px;
+  margin: auto;
+  text-decoration-color: whitesmoke;
+  vertical-align: top;
+}
+
+p.fontemaior{
+  font-style: normal;
+  color: #8C52FF;
+  font-size:80px;
+  margin-left: 50px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+}
+
+p.fontemenor{
+  font-size:40px;
+  color: #8C52FF;
+  margin-left: 50px;
+  margin-top: 0;
+  padding-top: 0px;
+}
+
+.corfundotitulo{
+  background-color: white;
+  margin: auto;
+}
+
+img.rosto {
+  border-radius: 100%;
+  width: 100%;
+  filter:contrast(180%)
+  filter:brightness(200%)
+}
+
+.linhalaranja{
+  background-image: url("linhalaranja.png");
+  padding-top: 0px;
+  margin-top: 0;
+  margin-left: 20px;
+  height: 10px;
+  width:140px;
+}
+
+.linhalilas{
+  background-image: url("linhalilas.png");
+  padding-top: 0px;
+  margin-left: 10px;
+  height: 10px;
+  width:80px;
+}
+
+
+.titulo,.subtitulo,.titulopost{
+ font-style: normal;
+ padding-top: 0px;
+ margin-left: 20px;
+ margin-bottom: 0px;
+}
+
+.titulo{
+  font-size:24px;
+  text-transform: uppercase;
+}
+
+.subtitulo{
+  font-size:18px;
+  margin-bottom: 0;
+  margin-top:0;
+  padding: 0;
+ }
+
+.subtitulo h2{
+  margin-bottom: 7px;
+}
+
+.destaque h4{
+  margin-left: 20px;
+  margin-bottom: 0px;
+  color: white;
+}
+
+.periodo h6{
+  margin-left: 20px;
+  margin-top: 0px;
+  color: white;
+}
+
+
+.subtitulo#lilas{
+  color:#8C52FF;
+  margin-left:10px;
+ 
+} 
+
+.subtitulo#branco{
+  color:white;
+}
+
+
+table, th, td {
+  margin-top: 0px;
+  vertical-align: text-top;
+  height: 100%;
+}
+
+section{
+  
+  margin-top: 0px;
+}
+
+section#habilidades {
+  margin-left: 10px;
+  
+}
+
+
+
+
+a{
+  color:black;
+  text-decoration: none;
+  }
+
+ .imgfig{
+ 
+  width: 100%;
+  border: 1px solid coral;
+ }
+ 
+ .conteudos{
+   font-size: 16px;
+   font-family:'Segoe UI';
+   margin-left: 20px;
+   padding: 10px;
+   text-align: left;
+   margin: auto;
+ }
+
+ .conteudos#fontecorcinza{
+   color:gray
+ }
+
+.conteudos#fontecorbranca{
+   color:white
+ }
+ 
+ .fundoconteudos{
+   background-color: rgb(218, 200, 234);
+ }
+
+ .lista{
+   list-style-type: none;
+   padding-left: 20px;
+   font-size: 14px;
+    }
+
+ .lista#contatos li{
+  
+   font-size: 16px;
+   color:gray
+  
+ }
+
+ .lista#atividades li {
+  list-style-type:disc; 
+  font-size: 16px;
+  color:white;
+  margin-left: 20px;
+  
+ 
+}
